@@ -3,7 +3,7 @@ const fs = require('fs-extra')
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '923184474176';
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '2348109273709';
 global.mongodb = process.env.MONGODB_URI  || ""; // "mongodb+srv://suhail:suhail@cluster0.tuhzpez.mongodb.net/?retryWrites=true&w=majority" ;//process.env.MONGODB_URI || "mongodb+srv://Suhail:suhail@cluster0.rzhkoqf.mongodb.net/?retryWrites=true&w=majority" ;
 global.DATABASE_URI = process.env.DATABASE_URI || "" ; // "postgres://drchnhfxnxvkhb:fe7e6999d202f14f61af1837ef5e1eb07980f37b854ba57c34add33a21453009@ec2-3-221-177-27.compute-1.amazonaws.com:5432/d74crch1e6dgt0";
 global.port= false // Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000  ; 
@@ -23,22 +23,24 @@ global.website = 'https://github.com/SuhailTechInfo/Suhail-Md' ; //wa.me/+923000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg' ;
 
 module.exports = {
-  sessionName: process.env.SESSION_ID || "",
-  botname: process.env.BOT_NAME || 'sᴜʜᴀɪʟ-ᴍᴅ',
-  ownername: process.env.OWNER_NAME || `It'x Suhail`,
+  sessionName: process.env.SESSION_ID || "SESSION_22_56_11_20_ReflexesArkansas
+",
+  botname: process.env.BOT_NAME || 'RALPH HACKER 👹',
+  ownername: process.env.OWNER_NAME || 'RAlHBOY2',
   author: process.env.PACK_AUTHER || '',
   packname: process.env.PACK_NAME || "", // \t   𓅋 ₊₉₂⃗⃗₃₁᩺₈ͦ₄ͪ₄ᷧ₇ͥ₄ᷞ₁⃗₇₆ 𓃮 \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ --- 
   style: process.env.STYLE || '1',  // put '1' & "2" here to check bot styles
   errorChat: process.env.ERROR_CHAT || '', // put 'chat' here to send error in chat ,where it accures
-  read_status: process.env.AUTO_READ_STATUS || 'false',
-  save_status: process.env.AUTO_SAVE_STATUS || 'false',
+  read_status: process.env.AUTO_READ_STATUS || 'true',
+  save_status: process.env.AUTO_SAVE_STATUS || 'true',
 
-  autoreaction: process.env.AUTO_REACTION || 'false',  //  | 'cmd' | 'true' | 'all' |
+  autoreaction: process.env.AUTO_REACTION || 'true',  //  | 'cmd' | 'true' | 'all' |
   //antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokeyuntillYouPutAnWordHere',
-  alwaysonline: process.env.WAPRESENCE || '', // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
+  alwaysonline: process.env.WAPRESENCE || '', // 'SESSION_22_56_11_20_ReflexesArkansas
+' | 'available' | 'composing' | 'recording' | 'paused'
   //antifake : 'null', // process.env.FAKE_COUNTRY_CODE ||'212',
-  readmessage: process.env.READ_MESSAGE || 'false',   //  | 'false' | 'true' | 
-  readcmds: process.env.READ_COMMANDS || 'false',    //  | 'false' | 'true' | 
+  readmessage: process.env.READ_MESSAGE || 'true',   //  | 'false' | 'true' | 
+  readcmds: process.env.READ_COMMANDS || 'true',    //  | 'false' | 'true' | 
   HANDLERS: process.env.PREFIX || '.',
   warncount: process.env.WARN_COUNT || '3',
   disablepm: process.env.DISABLE_PM || "true",
@@ -51,7 +53,7 @@ module.exports = {
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   caption: process.env.CAPTION || "```ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
   OPENAI_API_KEY: process.env.OPENAI_API_KEY,
-  userImages: process.env.USER_IMAGES || "",// 'https://i.imgur.com/NpA3ZsJ.jpeg,https://telegra.ph/file/d9a63ef4f8110a6d87167.mp4,https://telegra.ph/file/41c41e73c1c5f11bdb1df.mp4,https://telegra.ph/file/acaba47a11c6975248c84.mp4' ,
+  userImages: process.env.USER_IMAGES || "MR RALPHBOY",// 'https://i.imgur.com/NpA3ZsJ.jpeg,https://telegra.ph/file/d9a63ef4f8110a6d87167.mp4,https://telegra.ph/file/41c41e73c1c5f11bdb1df.mp4,https://telegra.ph/file/acaba47a11c6975248c84.mp4' ,
   // antiDelete: process.env.ANTIDELETE ||  'true' ,
   // antiCallMessage: process.env.ANTICALL_MESSAGE ||  "\`\`\`Hii this is Suhail-Md a Personal Assistant!!\n\n\tSorry for now, we cannot receive calls, whether in a group or personal \n\n if you need help or request features please chat owner\n\n\nPowered by Suhail-Md Chatbot\`\`\`" ,
   VERSION: process.env.VERSION || 'v.1.2.3',
