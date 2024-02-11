@@ -39,7 +39,7 @@
   "READ_MESSAGE": {
     "description": "Fill the value true if you want bot to read all messages.",
     "required" :true,
-    "value": "fals
+    "value": "false"
 	 "
   },
   "DISABLE_PM": {
