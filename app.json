@@ -7,7 +7,7 @@
   "stack": "container",
 "env": {
   "OWNER_NAME": {
-    "description": "Name of Bot Owner",    
+    "description": "Mr Ralphboy",    
     "value": "Suhail Tech Info",
     "required" :true
   },  
@@ -38,8 +38,9 @@
   },
   "READ_MESSAGE": {
     "description": "Fill the value true if you want bot to read all messages.",
-    "required" :false,
-    "value": "false"
+    "required" :true,
+    "value": "fals
+	 "
   },
   "DISABLE_PM": {
     "description": "Disable bot in pm, Take it false if you wanna run bot in your pm",
@@ -52,9 +53,9 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-    "value": "923184474176"
+    "value": "2347041784362"
   },
-   "SESSION_ID": {
+   "SESSION_18_07_02_11_eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMktRa0V0YSsvaWd6MVVCLzNGcCtmdFJ4R2lDUmlIMFpHMklNVk9LVThWZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWUF4QTB2dWZQSUFGNDhEZWZ1aUtBbTBKWnRkYkpPYm0rYVB4MTBoa3N4QT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPUDdUMkpPUlh3VzROcmc0amg3RWdpOTB1bzBZNGltS29SMy96b0RqaUhzPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJndWJmMWVpaVBmRmZVeHZPZU5WRmJRWEloOTNwOTRER3VicitQZVdKY1ZvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik1GQUx6NE5OdU4xbG1zNFVhQ25rRktRejZ5dVY4QXVvMkxZSDM2ellwM2c9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Imlzcjk5eWxja0N1T2luS2JQclBhN3ZYYXBlcmlDWjBlemdwdkQrWXdwMm89In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia0FFQXlabW1lbDh2VVBpLzNobm9vU3hVczAxQkQ0aGkwdVNJZ2JFa2lscz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUWhvOENQb2JheDhzZHh1dzR5U0k3WStJbXFSMXJjam5OeEdxTnltdXhHcz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImY5STFnUzBXMnp5UHo1dkhWelBFTG9EM0VKcnZzSVRWK0h4UzNudE1HQlVweTV3Q3hNU2hYYWxGSTdCaHNjR3Q3YTUwVGx5SEpHaWl5Z1EyOW1jOEF3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTEwLCJhZHZTZWNyZXRLZXkiOiJ1Rkx2VjQ5cG9icDUrT3l0dlJSK0lTY2ZWQzd1N3ZWbmsyQmptYVhNdWNNPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJ1OGV2UDA0WVNnR3NNV2tWbUlxX3VRIiwicGhvbmVJZCI6ImY2ZGYxMGFkLWUzYzItNDFhMi04NTM2LWZjNGRmY2ZhMzAwNSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRZUFKQ2pnanhxcTN3TUxxTFd2S3orVnowODg9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWndFZjBUc3c4NG1aRFFueG56UjdnRVFhM3hRPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlpKQkxCRzgzIiwibWUiOnsiaWQiOiIyMzQ3MDQxNzg0MzYyOjI3QHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNKbkpnSWtIRU55WnBLNEdHQVFnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJ4bVJYbktaOGp2WmNNTm9aVVgwL0RST0d0bmlRTnBFMDE5MzIzQVBtVW00PSIsImFjY291bnRTaWduYXR1cmUiOiJyTU8wNitDc2M2U211aHgvSHdKNldneDE5UE9FeUF4SmQvVWZVVDdzNHZWdjh2N1pKcUxtR3lJMUVHSkNlcENVN0swbEYzWEFXRmRXVlFlMHMvOW5EUT09IiwiZGV2aWNlU2lnbmF0dXJlIjoidHYyeUo5MVBERnhBejZCc0tFd3M1K2ZWR1VPa01kZzhmVWdZNXZQVDQ3Tk5VYjZBcHpBdXBlV2NOams1NXRDY1BiaUtBcEVuTHVrQVBOTnRZRDllQ2c9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzQ3MDQxNzg0MzYyOjI3QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmNaa1Y1eW1mSTcyWEREYUdWRjlQdzBUaHJaNGtEYVJOTmZkOXR3RDVsSnUifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MDc2NzQ4NDd9": {
     "description": "Please put your SESSION_ID here,if you don't have visit\nhttps://replit.com/@SuhailTechInfo/Secktor-Bot"
   },
   "OPENAI_API_KEY": {
